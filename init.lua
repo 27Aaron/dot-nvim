@@ -9,3 +9,9 @@ opt.relativenumber = true                   -- show relative line numbers
 opt.mouse:append 'a'                        -- enable mouse support
 opt.clipboard:append 'unnamedplus'          -- use system clipboard
 
+-- highlight on yank
+vim.api.nvim_create_autocmd('TextYankPost', {
+	callback = function()
+	  vim.highlight.on_yank()
+	end,
+})
