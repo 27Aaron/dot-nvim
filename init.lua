@@ -16,7 +16,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 	end,
 })
 
-vim.g.mapleader = " " 					    -- set leader key to space
+vim.g.mapleader = " "			     -- set leader key to space
 
 -- lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -37,6 +37,7 @@ require("lazy").setup({
 	{ "folke/neoconf.nvim", cmd = "Neoconf" },
 	"folke/neodev.nvim",
 	{ "neanias/everforest-nvim", version = false, lazy = false, priority = 1000, },
+  { 'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = { 'nvim-lua/plenary.nvim' } },
   })
 
   vim.cmd.colorscheme("everforest")
