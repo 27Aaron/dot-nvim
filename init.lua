@@ -41,6 +41,7 @@ require("lazy").setup({
 	{
 		event = "VeryLazy",
 		"williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
 		build = ":MasonUpdate", -- :MasonUpdate updates registry contents
 		config = function()
 			require("mason").setup()
