@@ -1,5 +1,3 @@
-vim.g.mapleader = " "			     -- set leader key to space
-
 -- lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -33,4 +31,5 @@ vim.opt.rtp:prepend(lazypath)
 --   })
 
 require 'base'
+require 'keymap'
 require('lazy').setup 'plugins'
