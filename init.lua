@@ -38,6 +38,7 @@ require("lazy").setup({
 	"folke/neodev.nvim",
 	{ "neanias/everforest-nvim", version = false, lazy = false, priority = 1000, },
   { cmd = "Telescope", 'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = { 'nvim-lua/plenary.nvim' } },
+  "williamboman/mason.nvim"
   })
 
   vim.cmd.colorscheme("everforest")
