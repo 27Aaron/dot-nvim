@@ -18,18 +18,6 @@ vim.opt.rtp:prepend(lazypath)
 -- 	"folke/which-key.nvim",
 -- 	{ "folke/neoconf.nvim", cmd = "Neoconf" },
 -- 	"folke/neodev.nvim",
---   { cmd = "Telescope", 'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = { 'nvim-lua/plenary.nvim' } },
--- 	{
--- 		event = "VeryLazy",
---     "williamboman/mason.nvim",
---     "williamboman/mason-lspconfig.nvim",
---     "neovim/nvim-lspconfig",
--- 		build = ":MasonUpdate", -- :MasonUpdate updates registry contents
--- 		config = function()
--- 			require("mason").setup()
---       require("mason-lspconfig").setup()
--- 		end,
--- 	},
 --   })
 
 require 'base'
