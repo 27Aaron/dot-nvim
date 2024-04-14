@@ -38,7 +38,14 @@ require("lazy").setup({
 	"folke/neodev.nvim",
 	{ "neanias/everforest-nvim", version = false, lazy = false, priority = 1000, },
   { cmd = "Telescope", 'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = { 'nvim-lua/plenary.nvim' } },
-  "williamboman/mason.nvim"
+	{
+		event = "VeryLazy",
+		"williamboman/mason.nvim",
+		build = ":MasonUpdate", -- :MasonUpdate updates registry contents
+		config = function()
+			require("mason").setup()
+		end,
+	},
   })
 
   vim.cmd.colorscheme("everforest")
