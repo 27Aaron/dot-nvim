@@ -20,6 +20,10 @@ return {
       ensure_installed = {
         'lua-language-server',
         'stylua',
+        'eslint_d',
+        'prettierd',
+        'graphql-language-service-cli',
+        'prisma-language-server',
       },
     }
   end,
