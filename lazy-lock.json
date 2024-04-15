@@ -1,4 +1,5 @@
 {
+  "conform.nvim": { "branch": "master", "commit": "820eec990d5f332d30cf939954c8672a43a0459e" },
   "everforest": { "branch": "master", "commit": "4d67edd8d4701b00cee37073d53053a650264541" },
   "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
   "lualine.nvim": { "branch": "master", "commit": "0a5a66803c7407767b799067986b4dc3036e1983" },
