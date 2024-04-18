@@ -1,8 +1,8 @@
 return {
-    'catppuccin/nvim',
-    name = "catppuccin",
+    'sainnhe/everforest',
     priority = 1000,
     config = function()
-        vim.cmd [[colorscheme catppuccin]]
+        vim.g.everforest_diagnostic_line_highlight = 1
+        vim.cmd [[colorscheme everforest]]
     end
 }
