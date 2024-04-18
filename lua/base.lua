@@ -9,6 +9,11 @@ opt.relativenumber = true                       -- show relative line numbers
 opt.scrolloff = 5 							    -- keep 5 lines above/below cursor
 opt.sidescrolloff = 5 					     	-- keep 5 lines left/right of cursor
 
+opt.tabstop = 2 							    -- tab width
+opt.shiftwidth = 2 						   	    -- number of spaces to use for autoindent
+opt.expandtab = true 							-- use spaces instead of tabs
+opt.autoindent = true 							-- maintain indent of current line
+
 -- Clipboard & Mouse
 opt.mouse:append 'a'                            -- enable mouse support
 opt.clipboard:append 'unnamedplus'              -- use system clipboard
