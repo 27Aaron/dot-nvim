@@ -17,6 +17,11 @@ opt.autoindent = true 							-- maintain indent of current line
 opt.ignorecase = true							-- ignore case when searching
 opt.smartcase = true							-- ignore case if search pattern is all lowercase
 
+-- Improve performance
+opt.swapfile = false							-- disable swap file
+opt.autoread = true								-- auto read file when changed outside of vim
+vim.bo.autoread = true							-- auto read file when changed outside of vim
+
 -- Clipboard & Mouse
 opt.mouse:append 'a'                            -- enable mouse support
 opt.clipboard:append 'unnamedplus'              -- use system clipboard
