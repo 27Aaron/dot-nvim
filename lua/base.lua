@@ -14,6 +14,9 @@ opt.shiftwidth = 2 						   	    -- number of spaces to use for autoindent
 opt.expandtab = true 							-- use spaces instead of tabs
 opt.autoindent = true 							-- maintain indent of current line
 
+opt.ignorecase = true							-- ignore case when searching
+opt.smartcase = true							-- ignore case if search pattern is all lowercase
+
 -- Clipboard & Mouse
 opt.mouse:append 'a'                            -- enable mouse support
 opt.clipboard:append 'unnamedplus'              -- use system clipboard
