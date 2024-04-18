@@ -5,6 +5,10 @@ opt.signcolumn = 'yes'                          -- always show signcolumn
 opt.number = true                               -- show line numbers
 opt.relativenumber = true                       -- show relative line numbers
 
+-- window options
+opt.scrolloff = 5 							    -- keep 5 lines above/below cursor
+opt.sidescrolloff = 5 					     	-- keep 5 lines left/right of cursor
+
 -- Clipboard & Mouse
 opt.mouse:append 'a'                            -- enable mouse support
 opt.clipboard:append 'unnamedplus'              -- use system clipboard
