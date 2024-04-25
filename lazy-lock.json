@@ -1,0 +1,5 @@
+{
+  "everforest": { "branch": "master", "commit": "4d67edd8d4701b00cee37073d53053a650264541" },
+  "lazy.nvim": { "branch": "main", "commit": "3f13f080434ac942b150679223d54f5ca91e0d52" },
+  "vim-wakatime": { "branch": "master", "commit": "5d11a253dd1ecabd4612a885175216032d814300" }
+}
