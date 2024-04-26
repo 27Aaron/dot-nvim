@@ -6,6 +6,7 @@ return {
       dependencies = {
         'windwp/nvim-ts-autotag',
         'axelvc/template-string.nvim',
+        'NoahTheDuke/vim-just',
       },
       config = function()
         require('nvim-treesitter.configs').setup {
