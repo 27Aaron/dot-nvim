@@ -1,7 +1,7 @@
 return {
   'williamboman/mason.nvim',
   dependencies = {
-       'williamboman/mason-lspconfig.nvim',
+    'williamboman/mason-lspconfig.nvim',
     'WhoIsSethDaniel/mason-tool-installer.nvim',
   },
   config = function()
@@ -20,9 +20,9 @@ return {
       ensure_installed = {
         'lua-language-server',
         'stylua',
+        'prettierd',
         'graphql-language-service-cli',
-     },
+      },
     }
   end,
 }
-
