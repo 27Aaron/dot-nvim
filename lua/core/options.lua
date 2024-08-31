@@ -4,6 +4,9 @@ opt.signcolumn = 'yes'
 opt.number = true
 opt.relativenumber = true
 
+opt.scrolloff = 5
+opt.sidescrolloff = 5
+
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
