@@ -8,3 +8,5 @@
 -----------------------------------------------------------
 
 -- Author: Aaron (https://github.com/27Aaron/dot-nvim)
+
+require 'core'
