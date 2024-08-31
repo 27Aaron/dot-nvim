@@ -12,3 +12,6 @@ keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })
 keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
 keymap.set('n', '<c-a>', 'ggVG', { desc = "Select all the contents" })
+
+keymap.set({ 'n', 'x' }, '<leader>p', '"0p', { desc = "Unnamed register location paste" })
+
