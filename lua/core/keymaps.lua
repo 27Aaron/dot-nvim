@@ -15,3 +15,6 @@ keymap.set('n', '<c-a>', 'ggVG', { desc = "Select all the contents" })
 
 keymap.set({ 'n', 'x' }, '<leader>p', '"0p', { desc = "Unnamed register location paste" })
 
+keymap.set('n', '<leader>q', '<cmd>q<cr>')
+keymap.set('n', '<leader>w', '<cmd>w<cr>')
+keymap.set('n', '<leader>x', '<cmd>x<cr>')
