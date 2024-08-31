@@ -17,3 +17,10 @@ opt.background = "dark"
 
 opt.mouse:append 'a'
 opt.clipboard:append 'unnamedplus'
+
+-- highlight on yank
+vim.api.nvim_create_autocmd('TextYankPost', {
+  callback = function()
+    vim.highlight.on_yank()
+  end,
+})
