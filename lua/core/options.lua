@@ -14,3 +14,6 @@ opt.smartcase = true
 
 opt.termguicolors = true
 opt.background = "dark"
+
+opt.mouse:append 'a'
+opt.clipboard:append 'unnamedplus'
