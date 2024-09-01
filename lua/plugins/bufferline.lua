@@ -1,10 +1,15 @@
 return {
     "akinsho/bufferline.nvim",
+    event = { 'BufReadPre', 'BufNewFile' },
     dependencies = { "nvim-tree/nvim-web-devicons" },
     version = "*",
-    opts = {
-      options = {
-        mode = "tabs",
-      },
-    },
+    config = function()
+        require('bufferline').setup({
+            options = {
+                indicator = {
+                    style = 'underline',
+                },
+            },
+        })
+    end,
   }
